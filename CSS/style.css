@@ -1,0 +1,178 @@
+@import 'utilities.css';
+
+:root{
+	--purple:#800080;
+	--pure:#FFFFFF;
+	--dark:#000000;
+	--pink:#7B241C;
+	--bluish:#909497;
+	--greenish:#48C9B0;
+	--maroon:#C0392B;
+	--pink:#ff0080;
+	--light:#ffe6ff;
+	
+}
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+header{
+	background:#ff0080;
+	height:600px;
+	clip-path:polygon(0 0,100% 0,100% 100%,80% 90%,0 100%);
+}
+.container{
+	max-width:1152px;
+	padding:0 15px;
+	margin:0 auto;
+}
+
+header nav{
+	padding:2rem 0;
+}
+
+header nav .navi a{
+	color: var(--dark);
+	font-size:1.4rem;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin-right:2rem;
+	transition: all .3s ease;
+	font-family:'Red Rose',cursive;
+	
+}
+header .right h1{
+	font-family: 'Lobster', cursive;
+}
+
+header nav .navi a:hover{
+	color:var(--dark);
+}
+
+
+header nav .branding{
+	margin-right:3rem;
+}
+.hero{
+	padding:3rem 0;
+}
+.hero .left img{
+	width:400px;
+}
+
+.hero .right h6{
+	font-size:1.6rem;
+	color:;
+}
+.hero .right h1{
+	color:#003399;
+	margin-bottom:0.3rem;
+	font-size:1.9rem;
+	font-weight:100;
+}
+.hero .right p{
+	line-height:1.9rem;
+	margin-bottom:2rem;
+}
+.hero .right{
+	margin-top:-7rem;
+}
+.section{
+	padding:0rem 0;
+}
+
+section.page{
+	background:var(--light);
+}
+
+section.page .card-wrapper {
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	margin-right:0rem;
+	grid-column-gap:2rem;
+	grid-row-gap:2rem;
+	margin-top:2rem;
+
+}
+section.page .card-wrapper .card{
+	margin-bottom:2rem;
+}
+
+footer{
+	background:var(--purple);
+	text-align:center;
+	padding:1rem 0;
+	padding:1.5rem 20rem;
+	
+	
+}
+footer p{
+	text-align:center;
+	font-size: 2rem;
+	font-weight: 100;
+	line-height: 1.2;
+	margin-bottom: 1rem;
+	font-family:'Red Rose',cursive;
+	color: #ff0055;
+	margin-top:3rem;
+	text-decoration:none;
+}
+
+footer h2{
+	text-align:center;
+	font-size: 2rem;
+	font-weight: 100;
+	line-height: 1.2;
+	margin-bottom: 2rem;
+	font-family: 'Lobster', cursive;
+	color: var(--light);
+}
+footer h2.admin_link{
+	text-align:center;
+	font-size: 2rem;
+	font-weight: 100;
+	line-height: 1.2;
+	margin-bottom: 2rem;
+	font-family: 'Lobster', cursive;
+	color: var(--light);
+	margin-top:2rem;
+}
+footer.footer-socials a{
+	text-align:center;
+	margin-bottom:0rem;
+}
+.fa-customize{
+	color: #00e6ac;
+	text-align:center;
+}
+footer.footer-socials a.insta{
+	color: #cc0066;
+}
+.top a{
+	color: var(--purple);
+	text-align:right;
+	text-decoration: none;
+	margin-right:2rem;
+	text-transform:uppercase;
+	transition:all .3s ease;
+	font-family:'Red Rose',cursive;
+}
+.webde{
+	background:var(--dark);
+	padding:1.5rem 2rem;
+
+}
+.webde h2{
+	
+}
+.admin{
+	background:var(--purple);
+	padding:1.5rem 2rem;
+}
